@@ -1,0 +1,31 @@
+baseurl		= "https://arvela.pt/"
+languageCode	= "en-US"
+theme		= "hugo-goa"
+
+title 		= "Pedro Arvela"
+author		= "Pedro Arvela"
+
+[params]
+author		= "Pedro Arvela"
+authorimage	= "profile.jpg"
+intro		= "Soon to be Software Engineer"
+description	= "Currently working in Natural Language Processing."
+dateformat	= "2 Jan, 2006"
+
+[params.social]
+github		= "PedroArvela"
+instagram	= "pedro.arvela"
+linkedIn	= "pedro-arvela-0bb500a8"
+twitter		= "PedroArvela"
+facebook	= "j.pedro.arvela"
+google		= "+PedroArvela"
+email		= "jp.arvela@gmail.com"
+
+[params.extra]
+copyright	= "(c) 2017 Pedro Arvela"
+highlightjs	= true
+
+[[menu.main]]
+name		= "Home"
+url		= "/"
+weight		= 0
