@@ -15,7 +15,7 @@ dateformat	= "2 Jan, 2006"
 [params.social]
 github		= "PedroArvela"
 instagram	= "pedro.arvela"
-linkedIn	= "pedro-arvela-0bb500a8"
+linkedIn	= "PedroArvela"
 twitter		= "PedroArvela"
 facebook	= "j.pedro.arvela"
 google		= "+PedroArvela"
@@ -29,3 +29,8 @@ highlightjs	= true
 name		= "Home"
 url		= "/"
 weight		= 0
+
+[[menu.main]]
+name		= "Resume (PDF)"
+url		= "/assets/pedro-arvela-resume.en.pdf"
+weight		= 100
