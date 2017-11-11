@@ -1,0 +1,33 @@
+baseurl		= "https://arvela.pt/"
+languageCode	= "en-US"
+theme		= "hugo-goa"
+
+title 		= "Pedro Arvela"
+author		= "Pedro Arvela"
+
+[params]
+author		= "Pedro Arvela"
+authorimage	= "profile.jpg"
+intro		= "Soon to be Software Engineer"
+description	= "Currently working in Natural Language Processing."
+dateformat	= "2 Jan, 2006"
+
+[params.social]
+github		= "PedroArvela"
+linkedIn	= "PedroArvela"
+google		= "+PedroArvela"
+email		= "jp.arvela@gmail.com"
+
+[params.extra]
+copyright	= "(c) 2017 Pedro Arvela"
+highlightjs	= true
+
+[[menu.main]]
+name		= "Home"
+url		= "/"
+weight		= 0
+
+[[menu.main]]
+name		= "Resume (PDF)"
+url		= "/assets/pedro-arvela-resume.en.pdf"
+weight		= 100

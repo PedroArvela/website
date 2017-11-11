@@ -1,0 +1,25 @@
+---
+
+# Install apt dependencies
+addons:
+  apt:
+    packages:
+      - python-pygments
+
+# Clean and don' fail
+install:
+  - rm -rf public || exit 0
+
+# Build the website
+script:
+  - cd src
+  - ../binaries/hugo
+
+# Deploy to Github Pages
+deploy:
+  provider: pages
+  skip_cleanup: True
+  local_dir: public
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
