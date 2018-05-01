@@ -8,8 +8,8 @@ author		= "Pedro Arvela"
 [params]
 author		= "Pedro Arvela"
 authorimage	= "profile.jpg"
-intro		= "Soon to be Software Engineer"
-description	= "Currently working in Natural Language Processing."
+intro		= "Software Engineer"
+description	= "Currently working as a DevOps enginner."
 dateformat	= "2 Jan, 2006"
 
 [params.social]
