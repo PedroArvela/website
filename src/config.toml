@@ -15,7 +15,6 @@ dateformat	= "2 Jan, 2006"
 [params.social]
 github		= "PedroArvela"
 linkedIn	= "PedroArvela"
-google		= "+PedroArvela"
 email		= "jp.arvela@gmail.com"
 
 [params.extra]
