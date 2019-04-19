@@ -6,6 +6,11 @@ platform:
   arch: amd64
 
 steps:
+- name: submodules
+  image: docker:git
+  commands:
+  - git submodule update --init --recursive --remote
+
 - name: build
   image: alpine
   environment:
