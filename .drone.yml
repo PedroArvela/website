@@ -25,7 +25,6 @@ steps:
   image: plugins/gh-pages
   settings:
     pages_directory: public/
-    username: PedroArvela
     ssh_key:
       from_secret: github_deploy_key
   when:
