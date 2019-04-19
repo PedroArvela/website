@@ -33,7 +33,7 @@ steps:
   - export ORIGIN_URL="$(git remote get-url origin)"
   - eval $(ssh-agent)
   - echo "$SSH_KEY" | ssh-add -
-  - pushd public
+  - cd public
   - git init
   - git remote add origin $ORIGIN_URL
   - git add .
