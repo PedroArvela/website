@@ -1,0 +1,37 @@
+kind: pipeline
+name: default
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+- name: submodules
+  image: docker:git
+  commands:
+  - git submodule update --init --recursive --remote
+
+- name: build
+  image: alpine
+  environment:
+    CNAME: arvela.pt
+  commands:
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.55.0/hugo_0.55.0_Linux-64bit.tar.gz
+  - tar xzvf hugo_0.55.0_Linux-64bit.tar.gz
+  - ./hugo
+  - echo -n "arvela.pt" > public/CNAME
+
+- name: publish
+  image: plugins/gh-pages
+  settings:
+    username:
+      from_secret: github_username
+    ssh_key:
+      from_secret: github_deploy_key
+    pages_directory: public/
+  when:
+    branch:
+    - master
+    event:
+      exclude:
+      - pull_request
