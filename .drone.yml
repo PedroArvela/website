@@ -24,11 +24,10 @@ steps:
 - name: publish
   image: plugins/gh-pages
   settings:
-    username:
-      from_secret: github_username
+    pages_directory: public/
+    username: PedroArvela
     ssh_key:
       from_secret: github_deploy_key
-    pages_directory: public/
   when:
     branch:
     - master
