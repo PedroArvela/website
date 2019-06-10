@@ -1,32 +1,35 @@
-baseurl         = "https://arvela.pt/"
-languageCode    = "en-US"
-theme           = "hugo-goa"
-
-title       = "Pedro Arvela"
-author      = "Pedro Arvela"
+baseurl      = "https://arvela.pt/"
+languageCode = "en-US"
+theme        = "beautifulhugo"
+title        = "Pedro Arvela"
 
 [params]
-author      = "Pedro Arvela"
-authorimage = "profile.jpg"
-intro       = "Software Engineer"
-description = "DevOps Engineer at Onfido"
-dateformat  = "2 Jan, 2006"
+author     = "Pedro Arvela"
+subtitle   = "DevOps Engineer"
+logo       = "img/profile.jpg"
+dateformat = "2 Jan, 2006"
 
-[params.social]
-email       = "jp.arvela@gmail.com"
-github      = "PedroArvela"
-gitlab      = "PedroArvela"
-linkedIn    = "PedroArvela"
-medium      = "@PedroArvela"
+commit     = false
+rss        = true
 
-[params.extra]
-copyright   = "(c) 2017 Pedro Arvela"
-highlightjs = true
+[author]
+name     = "Pedro Arvela"
+email    = "jp.arvela@gmail.com"
+github   = "PedroArvela"
+gitlab   = "PedroArvela"
+linkedIn = "PedroArvela"
+medium   = "@PedroArvela"
+twitter  = "PedroArvela"
 
 [[menu.main]]
 name    = "Home"
 url     = "/"
 weight  = 1
+
+[[menu.main]]
+name = "Blog"
+url = "/post"
+weight = 50
 
 [[menu.main]]
 name    = "Resume (PDF)"
