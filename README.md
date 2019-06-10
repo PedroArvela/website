@@ -4,8 +4,7 @@
 
 This is the repository for the website [arvela.pt](https://arvela.pt).
 
-This website uses [Hugo](https://gohugo.io/) and
-[Hugo Goa](https://github.com/shenoybr/hugo-goa).
+This website uses [Hugo](https://gohugo.io/) and [Beautiful Hugo](https://github.com/halogenica/beautifulhugo).
 
 ## Building
 
