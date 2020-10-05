@@ -27,11 +27,11 @@ url     = "/"
 weight  = 1
 
 [[menu.main]]
-name = "Blog"
-url = "/post"
+name = "Blog (Medium)"
+url = "https://medium.com/@PedroArvela"
 weight = 50
 
 [[menu.main]]
 name    = "Resume (PDF)"
-url     = "/assets/pedro-arvela-resume.en.pdf"
+url     = "/assets/pedro-arvela-resume.pdf"
 weight  = 100
