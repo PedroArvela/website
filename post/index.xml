@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Pedro Arvela</title>
+    <link>https://arvela.pt/post/</link>
+    <description>Recent content in Posts on Pedro Arvela</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <managingEditor>jp.arvela@gmail.com (Pedro Arvela)</managingEditor>
+    <webMaster>jp.arvela@gmail.com (Pedro Arvela)</webMaster>
+    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://arvela.pt/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Kubernetes Migration</title>
+      <link>https://arvela.pt/post/a-kubernetes-migration/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <author>jp.arvela@gmail.com (Pedro Arvela)</author>
+      <guid>https://arvela.pt/post/a-kubernetes-migration/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This was originally posted in the &lt;a href=&#34;https://medium.com/unbabel&#34;&gt;Unbabel R&amp;amp;D Medium&lt;/a&gt; with the title &lt;a href=&#34;https://medium.com/unbabel/unbabel-migrated-to-kubernetes-and-you-wont-believe-what-happened-next-b39f082def1c&#34;&gt;Unbabel migrated to Kubernetes and you won’t believe what happened next!&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
