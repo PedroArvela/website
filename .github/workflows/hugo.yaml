@@ -37,7 +37,7 @@ jobs:
       - name: Install Hugo CLI
         run: |
           wget https://github.com/gohugoio/hugo/releases/download/v0.55.0/hugo_0.55.0_Linux-64bit.tar.gz \
-          && tar xzvf hugo_0.55.0_Linux-64bit.tar.gz
+          && tar xzvf hugo_0.55.0_Linux-64bit.tar.gz -C /usr/local/bin/ hugo
       - name: Checkout
         uses: actions/checkout@v3
         with:
@@ -52,7 +52,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          ./hugo        
+          hugo        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
