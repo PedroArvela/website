@@ -20,6 +20,7 @@ gitlab   = "PedroArvela"
 linkedIn = "PedroArvela"
 medium   = "@PedroArvela"
 twitter  = "PedroArvela"
+mastodon = "mastodon.online/@PedroArvela"
 
 [[menu.main]]
 name    = "Home"

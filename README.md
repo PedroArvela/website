@@ -1,6 +1,6 @@
 # Arvela.pt
 
-[![Build Status](https://cloud.drone.io/api/badges/PedroArvela/website/status.svg)](https://cloud.drone.io/PedroArvela/website)
+![Buld Status](https://github.com/PedroArvela/website/actions/workflows/hugo.yaml/badge.svg)
 
 This is the repository for the website [arvela.pt](https://arvela.pt).
 
