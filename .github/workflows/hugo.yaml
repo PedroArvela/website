@@ -39,7 +39,7 @@ jobs:
           wget -O - https://github.com/gohugoio/hugo/releases/download/v0.115.1/hugo_0.115.1_Linux-64bit.tar.gz |
           tar xzvf - -C /usr/local/bin/ hugo
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
