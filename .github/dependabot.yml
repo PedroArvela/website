@@ -9,6 +9,14 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+      github-actions:
+        update-types:
+          - "patch"
+          - "minor"
+      github-actions-major:
+        update-types:
+          - "major"
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
